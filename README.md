@@ -49,3 +49,6 @@ To keep your email assistant running automatically in the cloud, you can deploy 
 - [PythonAnywhere](https://www.pythonanywhere.com)
 - [Render](https://render.com)
 - [Railway](https://railway.app)
+
+## Credits 
+- Made by combining many youtube videos and my idea which led to this.
