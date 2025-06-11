@@ -31,7 +31,7 @@ EMAIL_TO=mail where you want the summarised mail
 ## Usage
 
 ```bash
-python mail.py
+python main.py
 ```
 
 ## 💡 Notes
