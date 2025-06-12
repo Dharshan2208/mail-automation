@@ -30,7 +30,7 @@ def fetch_and_classify_emails():
     email_ids = messages[0].split()  # process emails
 
     for eid in email_ids:
-        _, msg_data = mail.fetch(eid, "(RFC822)")
+        _, msg_data = mail.fetch(eid, "(BODY.PEEK[])")   #Tell IMAP to read without making it seen
         for response_part in msg_data:
             if isinstance(response_part, tuple):
                 msg = email.message_from_bytes(response_part[1])
